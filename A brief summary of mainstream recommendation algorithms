@@ -23,3 +23,14 @@ Recall is the ratio of "good" ones in all recommendation results.
 Coverage is the ratio of recommendation results in all potential products, which describes the extend to which the algorithm traverse over all the products.
 4. Popularity
 Popularity is synthesized indicator describing the average popularity of all the recommendation results. Here one's popularity is weighed by the number of users who consumed this products.
+
+Mainstream Algorithms
+
+With a development of two decades, many different algorithms have been introduced. The following is a brief conclusion about all the mainstream algorithms in this field. 
+
+Vector Space Model
+In this model, users and items are represented by vectors, with each dimension indicating a feature. The favor of this model is that we could bring in linear algebra method, which is a very powerful mathematical tool. 
+
+Graph Model
+In this model, users and items are represented by vertexes, while the relationship between users and items can be represented by edges. The favor of this model is that we could bring in Graph theory, another very powerful mathematical tool.
+
