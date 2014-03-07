@@ -11,3 +11,15 @@ A web search engine is a software system that is designed to search for informat
 Since 1990s, Recommender system has been widely used in various web applications. Douban.fm, an online music radio, uses recommendation algorithms to decide next song based on users' historical likes and dislikes. Amazon, a large e-business company, will recommend new things similar to users' previous shopping records. Facebook, the most popular social website, uses common friends as the main feature to make friends recommendation, help enlarging users' friends circle. Hulu, a newly-risen company, makes Ad recommendations to users based on their tastes, bring the whole profit to a new level. With all these successful business applications, Recommender system has been playing an increasingly important role in current web environment.
 
 During its application, Recommender System has confronted many real-life problems. The first one is called cold-start problem, where it is very hard to recommend things to newly-registered users, because system knows very little about their own information. Second is called explainability. It is not easy to give a reasonable explanation for each recommendation result, which may wonder users and make it less likely for them to accept. Last comes the scalability problem. Many algorithms produced in academic field are hard to be implemented in real systems, for their performance may suffer severely coping with data of Gigabytes. Other issues will not be included in the discussion here.
+
+Evaluation Index
+
+There are mainly four evaluation index to judge recommendation results.
+1. Accuracy
+Accuracy is the ratio of "good" recommendation results in all products users consumed in test set. Here a recommendation result could be considered "good" if it has been consumed in test set.   
+2. Recall
+Recall is the ratio of "good" ones in all recommendation results.  
+3. Coverage
+Coverage is the ratio of recommendation results in all potential products, which describes the extend to which the algorithm traverse over all the products.
+4. Popularity
+Popularity is synthesized indicator describing the average popularity of all the recommendation results. Here one's popularity is weighed by the number of users who consumed this products.
